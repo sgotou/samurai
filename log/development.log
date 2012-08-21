@@ -409,3 +409,1221 @@ ActionView::Template::Error (couldn't find file 'twitter/bootstrap'
   Rendered /Users/sgotou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
   Rendered /Users/sgotou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
   Rendered /Users/sgotou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-21 16:53:36 +0900
+Connecting to database specified by database.yml
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 122ms (Views: 82.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /twitter/bootstrap.js - 200 OK (18ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /articles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:37 +0900
+Served asset /application.js - 200 OK (23ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-21 16:53:38 +0900
+Connecting to database specified by database.yml
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2012-08-21 16:53:39 +0900
+Served asset /articles.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:39 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:39 +0900
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-21 16:53:39 +0900
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (4ms)
+Connecting to database specified by database.yml
+  [1m[36m (2.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120821055520')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120821055520')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (25.1ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "body"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "title"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-1@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-2@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-3@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-4@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-5@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-6@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-7@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-8@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-9@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-10@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-11@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-12@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-13@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-14@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-15@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-16@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-17@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-18@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-19@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-20@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-21@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-22@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-23@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-24@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-25@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-26@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-27@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-28@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-29@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-30@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-31@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-32@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-33@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-34@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-35@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-36@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-37@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-38@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-39@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-40@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-41@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-42@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-43@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-44@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-45@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-46@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-47@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-48@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-49@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-50@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-51@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-52@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-53@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-54@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-55@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-56@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-57@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-58@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-59@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-60@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-61@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-62@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-63@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-64@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-65@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-66@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-67@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-68@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-69@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-70@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-71@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-72@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-73@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-74@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-75@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-76@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-77@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-78@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-79@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-80@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-81@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-82@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-83@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-84@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-85@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-86@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (30.6ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-87@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-88@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-89@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-90@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-91@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-92@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-93@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-94@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-95@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-96@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-97@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-98@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-99@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:26:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.9ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120821055520')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "body"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "title"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-1@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-2@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-3@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-4@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-5@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-6@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-7@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-8@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-9@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-10@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-11@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-12@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-13@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-14@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-15@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-16@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-17@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-18@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-19@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-20@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-21@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-22@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-23@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-24@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-25@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-26@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-27@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-28@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-29@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-30@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-31@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-32@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-33@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-34@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-35@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-36@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-37@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-38@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-39@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-40@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-41@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-42@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-43@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-44@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-45@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-46@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-47@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-48@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-49@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-50@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-51@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-52@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-53@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-54@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-55@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-56@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-57@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-58@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-59@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-60@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-61@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-62@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-63@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-64@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-65@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-66@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-67@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-68@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-69@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-70@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-71@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-72@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-73@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-74@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-75@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-76@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-77@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-78@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-79@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-80@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-81@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-82@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-83@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-84@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-85@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-86@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-87@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-88@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-89@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-90@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-91@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-92@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-93@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-94@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-95@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-96@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-97@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-98@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-99@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:27:50 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.3ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120821055520')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (25.5ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "body"], ["created_at", Tue, 21 Aug 2012 09:29:01 UTC +00:00], ["title", "title"], ["updated_at", Tue, 21 Aug 2012 09:29:01 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-1@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-2@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-3@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-4@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-5@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-6@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-7@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-8@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-9@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-10@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-11@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-12@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-13@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-14@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-15@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-16@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-17@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-18@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-19@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-20@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-21@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-22@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-23@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-24@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-25@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-26@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-27@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-28@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-29@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-30@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-31@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-32@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-33@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-34@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-35@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-36@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-37@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-38@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-39@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-40@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-41@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-42@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-43@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-44@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-45@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-46@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-47@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-48@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-49@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-50@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-51@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-52@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-53@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-54@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-55@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-56@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-57@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-58@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-59@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-60@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-61@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-62@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-63@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-64@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-65@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-66@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-67@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-68@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-69@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-70@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-71@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-72@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-73@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-74@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-75@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-76@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-77@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-78@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-79@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-80@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-81@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-82@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-83@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-84@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-85@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-86@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (28.7ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-87@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-88@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-89@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-90@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-91@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-92@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-93@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-94@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-95@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-96@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-97@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "example-98@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "example-99@railstutorial.org"], ["created_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00], ["title", "password"], ["updated_at", Tue, 21 Aug 2012 09:29:02 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Connecting to database specified by database.yml
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 114ms (Views: 74.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /bootstrap_and_overrides.css - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:48 +0900
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /twitter/bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:49 +0900
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.8ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (71.2ms)
+Completed 200 OK in 140ms (Views: 117.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-21 18:30:58 +0900
+Served asset /application.js - 304 Not Modified (1ms)
