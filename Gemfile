@@ -6,6 +6,7 @@ gem 'sqlite3'
 gem "twitter-bootstrap-rails"
 gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 gem 'faker'
+gem 'mysql2'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

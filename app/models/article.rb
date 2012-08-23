@@ -11,4 +11,9 @@
 
 class Article < ActiveRecord::Base
   attr_accessible :body, :title
+  validates :body, :presence => true, :length => { :minimum => 5 }
+  validates :title, :presence => true
+
+  has_many :comments
+
 end
