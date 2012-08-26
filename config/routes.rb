@@ -1,4 +1,6 @@
 Samurai::Application.routes.draw do
+  resources :diaries
+
   resources :posts do
     resources :comments
   end

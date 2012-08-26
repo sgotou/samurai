@@ -8666,3 +8666,4 @@ Processing by PostsController#show as HTML
   [1m[35mComment Load (1.2ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`post_id` = 7
   Rendered posts/show.html.erb within layouts/application (52.5ms)
 Completed 200 OK in 71ms (Views: 60.3ms | ActiveRecord: 7.9ms)
+Connecting to database specified by database.yml
